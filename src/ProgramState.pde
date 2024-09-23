@@ -69,11 +69,20 @@ class ProgramState {
   }
   
   Shape makeShape(){
-    Shape s = new Shape(
-      this.shapeMode,
-      getColor(),
-      getWeight()
-    );
+    Shape s;
+    if (this.shapeMode==ShapeType.FREEFORM_LINE){
+      s = new FreeformLine(
+        getColor(),
+        getWeight()
+      );
+    }
+    else{
+      s = new Shape(
+        this.shapeMode,
+        getColor(),
+        getWeight()
+      );
+    }
     return s;
   }
   

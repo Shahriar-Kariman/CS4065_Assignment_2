@@ -25,13 +25,16 @@ class Shape{
       float h = endPoint.y - startPoint.y;
       rect(startPoint.x, startPoint.y, w, h);
     }
-    else {
+    else if (shape==ShapeType.OVAL) {
       float centerX = (startPoint.x + endPoint.x) / 2;
       float centerY = (startPoint.y + endPoint.y) / 2;
       float w = abs(endPoint.x - startPoint.x);
       float h = abs(endPoint.y - startPoint.y);
       
       ellipse(centerX, centerY, w, h);
+    }
+    else if (shape==ShapeType.STRAIGHT_LINE) {
+      line(startPoint.x, startPoint.y, endPoint.x, endPoint.y);
     }
   }
 }

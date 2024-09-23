@@ -36,6 +36,9 @@ void mouseReleased() {
 
 void keyPressed(){
   keys[key] = true;
+  if(state.shapes.size()>0 && key==BACKSPACE){
+    state.shapes.removeLast();
+  }
 }
 
 void keyReleased(){
