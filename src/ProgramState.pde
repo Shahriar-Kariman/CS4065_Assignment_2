@@ -30,11 +30,14 @@ class ProgramState {
   
   LinkedList<Shape> shapes;
   
+  SideDisplay display;
+  
   ProgramState(){
     shapeMode = ShapeType.RECTANGLE;
     colorMode = ColorType.BLACK;
     weightMode = WeightType.THIN;
     shapes = new LinkedList<Shape>();
+    display = new SideDisplay();
   }
   
   void draw(){
@@ -66,6 +69,7 @@ class ProgramState {
       if(keys['2']) this.weightMode = WeightType.MEDIUM;
       if(keys['3']) this.weightMode = WeightType.THICK;
     }
+    display.draw();
   }
   
   Shape makeShape(){
