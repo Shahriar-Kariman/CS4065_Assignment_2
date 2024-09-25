@@ -26,6 +26,8 @@ class ProgramState {
   ColorType colorMode;
   WeightType weightMode;
   
+  boolean allowShortcuts = false;
+  
   boolean active = false;
   
   LinkedList<Shape> shapes;
@@ -45,29 +47,31 @@ class ProgramState {
       shapes.get(i).draw();
     }
     // Short cuts for shapes
-    if(keys['r']){
-      shapeMode = ShapeType.RECTANGLE;
-    }
-    if(keys['o']){
-      shapeMode = ShapeType.OVAL;
-    }
-    // short kuts for lines
-    if(keys['l']){
-      if(keys['1']) this.shapeMode = ShapeType.STRAIGHT_LINE;
-      if(keys['2']) this.shapeMode = ShapeType.FREEFORM_LINE;
-    }
-    // short cut for colors
-    if(keys['c']){
-      if(keys['0']) this.colorMode = ColorType.BLACK;
-      if(keys['1']) this.colorMode = ColorType.RED;
-      if(keys['2']) this.colorMode = ColorType.GREEN;
-      if(keys['3']) this.colorMode = ColorType.BLUE;
-    }
-    // shor cut for weight
-    if(keys['w']){
-      if(keys['1']) this.weightMode = WeightType.THIN;
-      if(keys['2']) this.weightMode = WeightType.MEDIUM;
-      if(keys['3']) this.weightMode = WeightType.THICK;
+    if(allowShortcuts){
+      if(keys['r']){
+        shapeMode = ShapeType.RECTANGLE;
+      }
+      if(keys['o']){
+        shapeMode = ShapeType.OVAL;
+      }
+      // short kuts for lines
+      if(keys['l']){
+        if(keys['1']) this.shapeMode = ShapeType.STRAIGHT_LINE;
+        if(keys['2']) this.shapeMode = ShapeType.FREEFORM_LINE;
+      }
+      // short cut for colors
+      if(keys['c']){
+        if(keys['0']) this.colorMode = ColorType.BLACK;
+        if(keys['1']) this.colorMode = ColorType.RED;
+        if(keys['2']) this.colorMode = ColorType.GREEN;
+        if(keys['3']) this.colorMode = ColorType.BLUE;
+      }
+      // shor cut for weight
+      if(keys['w']){
+        if(keys['1']) this.weightMode = WeightType.THIN;
+        if(keys['2']) this.weightMode = WeightType.MEDIUM;
+        if(keys['3']) this.weightMode = WeightType.THICK;
+      }
     }
     display.draw();
   }

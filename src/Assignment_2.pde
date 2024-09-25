@@ -12,6 +12,7 @@ OneDollar one;
 // callback
 void detected(String gesture, float percent, int startX, int startY, int centroidX, int centroidY, int endX, int endY){
   println("Gesture: "+gesture+", "+startX+"/"+startY+", "+centroidX+"/"+centroidY+", "+endX+"/"+endY);
+  if(state.allowShortcuts) return;
   if(gesture.equals("FREEFORM_LINE"))
     state.shapeMode = ShapeType.FREEFORM_LINE;
   else if(gesture.equals("RECTANGLE"))
