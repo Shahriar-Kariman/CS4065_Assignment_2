@@ -26,7 +26,7 @@ class ProgramState {
   ColorType colorMode;
   WeightType weightMode;
   
-  boolean allowShortcuts = false;
+  boolean allowShortcuts = true;
   
   boolean active = false;
   
