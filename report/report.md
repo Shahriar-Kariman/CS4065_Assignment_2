@@ -54,8 +54,6 @@ Users draw gestures by holding the right mouse button and dragging it. Here are 
 
 #### Why these gestures?
 
-I chose these gestures because:
-
 1. They allowed users to recognize what they do due to their shape.
 2. The gesture are either very simple like a **square** or a **circle** or resemble a character in the English language the users have probably used frequently like **C**, **~** or **\\**.
 3. And I was hoping by allowing them to cycle through some of the options I would reduce the number of gestures and the OneDollar library would be able to recognize them more accurately.
