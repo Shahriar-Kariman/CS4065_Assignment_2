@@ -50,6 +50,6 @@ Users draw gestures by holding the right mouse button and dragging it. Here are 
   - To change shape to *rectangle* users can draw a **square** moving thier mouse in a clock wise direction.
   -To change shape to *oval* users can draw a **circle** while moving their mouse in a clock wise motion.
   - To change the shape to straight line users can draw a slanted straight line resembeling a **backslash** character. ( \\ )
-  - To change the shape to a freeform line users can draw a squiggly line. ( ~ )
+  - To change the shape to a freeform line users can draw a **squiggly line**. ( ~ )
 
 #### Why these gestures?
