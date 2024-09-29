@@ -10,7 +10,7 @@ This investigation aimes to evaluate the memorability and usability of key and g
 
 The drawing software programmed for this investigation has 2 modes one where the user has to use the key boards to chose thier desired shape, color and drawing weight and in the other by holding the right mouse button and drawing a gesture acossiated with each action.
 
-### Short Cut Keys
+### Shortcut Keys
 
 Here are the keys the users could press and what they do:
 
@@ -53,3 +53,21 @@ Users draw gestures by holding the right mouse button and dragging it. Here are 
   - To change the shape to a freeform line users can draw a **squiggly line**. ( ~ )
 
 #### Why these gestures?
+
+I chose these gestures because:
+
+1. They allowed users to recognize what they do due to their shape.
+2. The gesture are either very simple like a **square** or a **circle** or resmble a character in the english language the users have probably used frequently like **C**, **~** or **\\**.
+3. And I was hoping by allowing them to cycle through some fo the options I would reduce the number of gestures and the OneDollar library would be able to recognize them more accuratly.
+
+## Evaluation Results
+
+Here is a report on my findings.
+
+### Shortcut Keys
+
+When using the short keys all 5 users had an easier time with the shortcut keys one reported they had a hard time trying to remember what number goes with the <kbd>C</kbd> key to get their desired color and one other user mentioned the shape keys where too far apart on the Key board.
+
+On avrage users used the backspace about 2 times each and overall they all reported that using the key input schema wasn't dificault.
+
+### Gestures
