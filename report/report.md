@@ -4,7 +4,7 @@
 
 ## Introduction
 
-This investigation aimes to evaluate the memorability and usability of key and gesture based interaction schemes to help me understand the cognitive load accosiated with learning and using short keys.
+This investigation aimes to evaluate the **memorability** and **usability** of key and gesture based interaction schemes to help me understand the cognitive load accosiated with learning and using short keys. This is important in UI dsign as how users as interaction schemes directly affect the efficiency and comfortablility of users.
 
 ## Input Scheme Designs
 
@@ -47,10 +47,10 @@ Users draw gestures by holding the right mouse button and dragging it. Here are 
 - For *changing colors* users draw a **C** shape and that will cycle through the colors starting from black then red, green, blue and black again.
 - For *changing the thickness of the lines* in the app users can draw a shape resembeling **^** or an **upside down V** and that will cycle through the premitted line weights from thin to medium and thin again.
 - Changing Shapes
-  - To change shape to *rectangle* users can draw a **square** moving thier mouse in a clock wise direction.
-  -To change shape to *oval* users can draw a **circle** while moving their mouse in a clock wise motion.
-  - To change the shape to straight line users can draw a slanted straight line resembeling a **backslash** character. ( \\ )
-  - To change the shape to a freeform line users can draw a **squiggly line**. ( ~ )
+  - To change shape to *rectangle* users can draw a **square** moving thier mouse in a clockwise direction.
+  -To change shape to *oval* users can draw a **circle** while moving their mouse in a clockwise motion.
+  - To change the shape to straight line users can draw a slanted straight line resembeling a **backslash** character. ( **\\** )
+  - To change the shape to a freeform line users can draw a **squiggly line**. ( **~** )
 
 #### Why these gestures?
 
@@ -66,8 +66,31 @@ Here is a report on my findings.
 
 ### Shortcut Keys
 
-When using the short keys all 5 users had an easier time with the shortcut keys one reported they had a hard time trying to remember what number goes with the <kbd>C</kbd> key to get their desired color and one other user mentioned the shape keys where too far apart on the Key board.
+When using the short keys all 5 users had an easier time with the shortcut keys one reported they had a hard time trying to remember what number goes with the <kbd>C</kbd> key to get their desired color and one other user mentioned the shape keys where too far apart on the keyboard.
 
 On avrage users used the backspace about 2 times each and overall they all reported that using the key input schema wasn't dificault.
 
 ### Gestures
+
+When using gestures users were able to reliably remember which gesture does what but still had a hard time drawing them they kept drawing circles and rectangles counter colckwise, one user had a hard time with the **squiggly line** they kept drawing it upside down with the start point of the gesture in a downward motion. The gesture for straight line( **\\** ) was often not beign detected by the library.
+
+On avrage users used the backspace about 6 times and overall they all reported that the task was annoying with one users stating, "It was hard as fuck." [^1]
+
+### Users
+
+Here are the participents that helped with my investigation: [^2]
+
+- Isaac O'Donnell
+- Tash Zaman
+- Kirsten Donovan
+- Andrew Doucet
+- Elsa Becket
+
+## Conclusion
+
+One thing is clear with my investigation and its that having shortcut keys is better than having gestures but if we had a better library and better input devices like trackpads maybe people might find using both advantages for example if they asociated with a gesture better than a key and find that that key is to far from ones hand they could use the gesture more often than the key or use the short keys if a gesture is not being recognized frequently.
+
+Of course the number of gestures need to be limited and used only when the gestures are distinguishable, simple and intitive.
+
+[^1]: His words not mine. But I am inclined to agree with him.
+[^2]: For obvious reasons I did not name them as I was describing their resposes.
