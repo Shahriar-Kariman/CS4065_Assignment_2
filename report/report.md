@@ -61,6 +61,21 @@ Users draw gestures by holding the right mouse button and dragging it. Here are 
 |Changing Colour| <img src="./images/colour.png" width="100" /> |
 |Changing Weight| <img src="./images/weight.png" width="100" /> | -->
 
+![Gesture for Changing Colour](./images/colour.png "Gesture for Changing Colour"){width=215px height=192px}
+
+![Gesture for Changing Weight](./images/weight.png "Gesture for Changing Weight"){width=215px height=192px}
+
+![Gesture for Rectangle](./images/Rectangle.png "Gesture for Rectangle"){width=215px height=192px}
+
+![Gesture for Oval/Elipse](./images/elipse.png "Gesture for Oval/Elipse"){width=215px height=192px}
+
+![Gesture for Straight Line](./images/straight_line.png "Gesture for Straight Line"){width=215px height=384px}
+
+![Gesture for Freeform Line](./images/freeform_line.png "Gesture for Freeform Line"){width=215px height=192px}
+
+<!-- this line is necessery for when I convert to pdf -->
+\newpage{}
+
 #### Why these gestures?
 
 1. They allowed users to recognize what they do due to their shape.
