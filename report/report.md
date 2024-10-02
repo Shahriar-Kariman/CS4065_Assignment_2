@@ -48,9 +48,18 @@ Users draw gestures by holding the right mouse button and dragging it. Here are 
 - For *changing the thickness of the lines* in the app users can draw a shape resembling **^** or an **upside down V** and that will cycle through the permitted line weights from thin to medium and thin again.
 - Changing Shapes
   - To change shape to *rectangle* users can draw a **square** moving their mouse in a clockwise direction.
-  -To change shape to *oval* users can draw a **circle** while moving their mouse in a clockwise motion.
+  - To change shape to *oval* users can draw a **circle** while moving their mouse in a clockwise motion.
   - To change the shape to straight line users can draw a slanted straight line resembling a **backslash** character. ( **\\** )
   - To change the shape to a free-form line users can draw a **squiggly line**. ( **~** )
+<!-- 
+|Command        | Gesture                |
+|---------------|-------------------------|
+|Rectangle      | <img src="./images/Rectangle.png" width="100" /> |
+|Circle/Elipse  | <img src="./images/elipse.png" width="100" /> |
+|Straight Line  | <img src="./images/straight_line.png" width="100" /> |
+|Freeform Line  | <img src="./images/freeform_line.png" width="100" /> |
+|Changing Colour| <img src="./images/colour.png" width="100" /> |
+|Changing Weight| <img src="./images/weight.png" width="100" /> | -->
 
 #### Why these gestures?
 

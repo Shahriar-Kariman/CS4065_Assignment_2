@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.2" width="215.9mm" height="279.4mm" viewBox="0 0 21590 27940" preserveAspectRatio="xMidYMid" fill-rule="evenodd" stroke-width="28.222" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg" xmlns:ooo="http://xml.openoffice.org/svg/export" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:presentation="http://sun.com/xmlns/staroffice/presentation" xmlns:smil="http://www.w3.org/2001/SMIL20/" xmlns:anim="urn:oasis:names:tc:opendocument:xmlns:animation:1.0" xml:space="preserve">
+<svg version="1.2" width="215.9mm" height="279.4mm" viewBox="9249 4499 3003 9503" preserveAspectRatio="xMidYMid" fill-rule="evenodd" stroke-width="28.222" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg" xmlns:ooo="http://xml.openoffice.org/svg/export" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:presentation="http://sun.com/xmlns/staroffice/presentation" xmlns:smil="http://www.w3.org/2001/SMIL20/" xmlns:anim="urn:oasis:names:tc:opendocument:xmlns:animation:1.0" xml:space="preserve">
  <defs class="ClipPathGroup">
   <clipPath id="presentation_clip_path" clipPathUnits="userSpaceOnUse">
    <rect x="0" y="0" width="21590" height="27940"/>
@@ -55,10 +55,10 @@
    <g id="container-id1">
     <g id="id1" class="Slide" clip-path="url(#presentation_clip_path)">
      <g class="Page">
-      <g class="com.sun.star.drawing.CustomShape">
+      <g class="com.sun.star.drawing.LineShape">
        <g id="id3">
-        <rect class="BoundingBox" stroke="none" fill="none" x="6499" y="4999" width="8504" height="8754"/>
-        <path fill="none" stroke="rgb(0,0,0)" d="M 15001,9376 C 15001,10144 14805,10898 14432,11563 14058,12228 13522,12781 12876,13165 12230,13549 11497,13751 10751,13751 10004,13751 9271,13549 8625,13165 7979,12781 7443,12228 7069,11563 6696,10898 6500,10144 6500,9376 6500,8607 6696,7853 7069,7188 7443,6523 7979,5970 8625,5586 9271,5202 10004,5000 10750,5000 11497,5000 12230,5202 12876,5586 13522,5970 14058,6523 14432,7188 14805,7853 15001,8607 15001,9375 L 15001,9376 Z"/>
+        <rect class="BoundingBox" stroke="none" fill="none" x="9249" y="4499" width="3003" height="9503"/>
+        <path fill="none" stroke="rgb(0,0,0)" d="M 9250,4500 L 12250,14000"/>
        </g>
       </g>
      </g>
